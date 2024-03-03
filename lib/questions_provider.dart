@@ -28,6 +28,18 @@ class QuestionsProvider {
         Question(
           "Command to show information about the current Git repository",
           [
+            Answer("git create"),
+            Answer("git init"),
+            Answer("git start"),
+            Answer("git initialize"),
+          ],
+          1,
+        )
+    );
+    _questions.add(
+        Question(
+          "Which command shows information about the current Git repository?",
+          [
             Answer("git stats"),
             Answer("git info"),
             Answer("git status"),
